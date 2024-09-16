@@ -1,4 +1,6 @@
 import numpy as np
+from .Functions import (sphereFunction)
+
 
 def loadConfig() -> dict:
     """
@@ -25,7 +27,8 @@ def loadConfig() -> dict:
         'vMax': vMax,                     # Higher Bound of the Particle's Velocity
         'maxIterations': maxIterations,   # Maximum Number of Iterations
         'populationSize': populationSize, # Population Size
-
+        'function': sphereFunction,       # Function to study
+        
         # The next few parameters can greatly impact the performance of the Algorithm
         'c1': 2,     # Cognitive / Personal Best based coefficient (Prioritizes Exploration since it only focuses on the personal's best solution)
         'r1': ...,   # Random Term to help weight the acceleration c1 (r1 in [0, 2])
