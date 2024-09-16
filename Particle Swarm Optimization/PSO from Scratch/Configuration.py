@@ -9,16 +9,16 @@ def loadConfig() -> dict:
 
     # Define variables to calculate and store auxiliar values used in the config dict
     d = 10
-    xMin = -100
-    xMax = -xMin
-    vMin = -0.2*(xMax - xMin)
-    vMax = -vMin
+    xMin = - 100
+    xMax = - xMin
+    vMin = - 0.2*(xMax - xMin)
+    vMax = - vMin
     maxIterations = 3000
     populationSize = 10
     w = 0.9 - ((0.9 - 0.4)/maxIterations)*np.linspace(0, maxIterations, maxIterations)
 
     return {
-        'd': d,
+        'd': d,                           # Dimension
         'xMin': xMin,                     # Lower Limit of the Search Space position
         'xMax': xMax,                     # Higher Limit of the Search Space position
         'vMin': vMin,                     # Lower Bound of the Particle's Velocity
