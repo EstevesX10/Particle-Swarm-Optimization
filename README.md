@@ -18,16 +18,16 @@
 <br/>
 
 <div align="center">
-    <a href="https://github.com/EstevesX10/__INSERT_REPO_NAME_HERE__/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/EstevesX10/__INSERT_REPO_NAME_HERE__?style=flat&logo=gitbook&logoColor=9ACFC3&label=License&color=9ACFC3">
+    <a href="https://github.com/EstevesX10/Particle-Swarm-Optimization/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/EstevesX10/Particle-Swarm-Optimization?style=flat&logo=gitbook&logoColor=9ACFC3&label=License&color=9ACFC3">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/repo-size/EstevesX10/__INSERT_REPO_NAME_HERE__?style=flat&logo=googlecloudstorage&logoColor=9ACFC3&logoSize=auto&label=Repository%20Size&color=9ACFC3">
+        <img src="https://img.shields.io/github/repo-size/EstevesX10/Particle-Swarm-Optimization?style=flat&logo=googlecloudstorage&logoColor=9ACFC3&logoSize=auto&label=Repository%20Size&color=9ACFC3">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/stars/EstevesX10/__INSERT_REPO_NAME_HERE__?style=flat&logo=adafruit&logoColor=9ACFC3&logoSize=auto&label=Stars&color=9ACFC3">
+        <img src="https://img.shields.io/github/stars/EstevesX10/Particle-Swarm-Optimization?style=flat&logo=adafruit&logoColor=9ACFC3&logoSize=auto&label=Stars&color=9ACFC3">
     </a>
-    <a href="https://github.com/EstevesX10/__INSERT_REPO_NAME_HERE__/blob/main/DEPENDENCIES.md">
+    <a href="https://github.com/EstevesX10/Particle-Swarm-Optimization/blob/main/DEPENDENCIES.md">
         <img src="https://img.shields.io/badge/Dependencies-DEPENDENCIES.md-white?style=flat&logo=anaconda&logoColor=9ACFC3&logoSize=auto&color=9ACFC3"> 
     </a>
 </div>
@@ -40,12 +40,15 @@
 
 This project was developed using a `Notebook`. Therefore if you're looking forward to test it out yourself, keep in mind to either use a **[Anaconda Distribution](https://www.anaconda.com/)** or a 3rd party software that helps you inspect and execute it. 
 
-Therefore, for more informations regarding the **Virtual Environment** used in Anaconda, consider checking the [DEPENDENCIES.md](https://github.com/EstevesX10/__INSERT_REPO_NAME_HERE__/blob/main/DEPENDENCIES.md) file.
+Therefore, for more informations regarding the **Virtual Environment** used in Anaconda, consider checking the [DEPENDENCIES.md](https://github.com/EstevesX10/Particle-Swarm-Optimization/blob/main/DEPENDENCIES.md) file.
+
+## Particle Swarm Optimization
+
+Particle Swarm Optimization (PSO) is an optimization technique inspired by the social behavior of birds and fish. It involves particles (potential solutions) moving through a search space influenced by both their own best positions and the group's best solution. Key elements include particle velocity, inertia, and social and cognitive acceleration factors, which help balance exploration and exploitation of the search space. PSO requires few hyperparameters, making it versatile and suitable for various tasks. Adaptive PSO variations adjust parameters dynamically to improve optimization performance.
 
 ## Project Results
 
 > ADD PROJECT RESULTS
-
 
 ### Sources
 
