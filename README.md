@@ -48,7 +48,84 @@ Particle Swarm Optimization (PSO) is an optimization technique inspired by the s
 
 ## Project Results
 
-> ADD PROJECT RESULTS
+Here are a few results when using the pyswarms package to minimize some objective functions which evaluates each particle's position.
+
+<table width="100%">
+  <tr>
+    <th colspan="3" height="100%">
+        <div align="center">
+            PSO Results
+        </div>
+    </th>
+  </tr>
+
+  <tr>
+    <td width="25%">
+        <div align="center">
+        <b>Objective Function</b>
+        </div>
+    </td>
+    <td width="25%">
+        <div align="center">
+        <b>Cost History</b>
+        </div>
+    </td>
+    <td width="25%">
+        <div align="center">
+        <b>Particle Search</b>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="10%">
+        <div align="center">
+        <b>Sphere</b>
+        </div>
+    </td>
+    <td width="38%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/SphereCostHistory.png"/>
+        </p>
+    </td>
+    <td width="52%">
+        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/SphereParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="10%">
+        <div align="center">
+        <b>Ratrigin</b>
+        </div>
+    </td>
+    <td width="38%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/RastriginCostHistory.png"/>
+        </p>
+    </td>
+    <td width="52%">
+        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/RastriginParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="10%">
+        <div align="center">
+        <b>Rosenbrock</b>
+        </div>
+    </td>
+    <td width="38%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/RosenbrockCostHistory.png"/>
+        </p>
+    </td>
+    <td width="52%">
+        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/RosenbrockParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+</table>
 
 ### Sources
 
