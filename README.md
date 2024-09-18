@@ -82,7 +82,7 @@ These functions are designed to **represent a variety of optimization challenges
     </td>
     <td width="25%">
         <div align="center">
-        <b>Graph</b>
+        <b>3D Graph</b>
         </div>
     </td>
   </tr>
@@ -146,7 +146,7 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
 
 <table width="100%">
   <tr>
-    <th colspan="3" height="100%">
+    <th colspan="4" height="100%">
         <div align="center">
             PSO Results
         </div>
@@ -154,19 +154,24 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
   </tr>
 
   <tr>
-    <td width="25%">
+    <td width="10%">
         <div align="center">
         <b>Objective Function</b>
         </div>
     </td>
-    <td width="25%">
+    <td width="30%">
         <div align="center">
         <b>Cost History</b>
         </div>
     </td>
-    <td width="25%">
+    <td width="20%">
         <div align="center">
-        <b>Particle Search</b>
+        <b>2D Particle Search</b>
+        </div>
+    </td>
+    <td width="30%">
+        <div align="center">
+        <b>3D Particle Search</b>
         </div>
     </td>
   </tr>
@@ -177,12 +182,16 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
         <b>Sphere</b>
         </div>
     </td>
-    <td width="38%">
+    <td width="10%">
         <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/SphereCostHistory.png"/>
         </p>
     </td>
-    <td width="52%">
-        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/SphereParticlesSearch.gif" height="auto"/>
+    <td width="10%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/2D_SphereParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+    <td width="50%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/3D_SphereParticlesSearch.gif" height="auto"/>
         </p>
     </td>
   </tr>
@@ -193,12 +202,16 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
         <b>Ratrigin</b>
         </div>
     </td>
-    <td width="38%">
+    <td width="30%">
         <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/RastriginCostHistory.png"/>
         </p>
     </td>
-    <td width="52%">
-        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/RastriginParticlesSearch.gif" height="auto"/>
+    <td width="30%">
+        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/2D_RastriginParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+    <td width="30%">
+        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/3D_RastriginParticlesSearch.gif" height="auto"/>
         </p>
     </td>
   </tr>
@@ -209,12 +222,16 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
         <b>Rosenbrock</b>
         </div>
     </td>
-    <td width="38%">
+    <td width="30%">
         <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Cost History/RosenbrockCostHistory.png"/>
         </p>
     </td>
-    <td width="52%">
-        <p align="center"><img src=".//Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/RosenbrockParticlesSearch.gif" height="auto"/>
+    <td width="30%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/2D_RosenbrockParticlesSearch.gif" height="auto"/>
+        </p>
+    </td>
+    <td width="30%">
+        <p align="center"><img src="./Particle Swarm Optimization/PSO with Pyswarms/Particle Searches/3D_RosenbrockParticlesSearch.gif" height="auto"/>
         </p>
     </td>
   </tr>
