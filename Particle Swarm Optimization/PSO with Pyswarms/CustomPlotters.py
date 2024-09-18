@@ -19,6 +19,7 @@ def my_plot_surface(
     animator=None,
     mark=None,
     n_processes=None,
+    cap_z_values=False,
     **kwargs
 ):
     """Plot a swarm's trajectory in 3D
@@ -93,7 +94,7 @@ def my_plot_surface(
         # Adjust the limits in the Designer class
         if designer is None:
             designer = Designer(
-                limits=[(-2, 2), (-2, 2), (-1, 2)],  # Expanded limits for the axes
+                limits=[(-4, 4), (-4, 4), (0, 200)],  # Expanded limits for the axes
                 label=["x-axis", "y-axis", "z-axis"],
                 colormap=cm.viridis,
                 title_fontsize=16,  # Adjust the font size
@@ -126,12 +127,12 @@ def my_plot_surface(
         # When setting the title, you can adjust the position by using the pad argument
         ax.set_title(title, fontsize=designer.title_fontsize, pad=30)  # Move title up
 
-        # Set a better viewing angle if necessary
-        ax.view_init(elev=30, azim=120)  # Adjust these values to get the best view of the plot
+        # Set a better viewing angle
+        ax.view_init(elev=30, azim=120)
         
         # Make a contour map if possible
         if mesher is not None:
-            (xx, yy, zz) = _mesh(mesher, n_processes=n_processes)
+            (xx, yy, zz) = _mesh(mesher, n_processes=n_processes, cap_z_values=cap_z_values)
             ax.plot_surface(
                 xx, yy, zz, cmap=designer.colormap, alpha=mesher.alpha
             )
@@ -172,7 +173,7 @@ def _animate(i, data, plot):
     return (plot,)
 
 
-def _mesh(mesher, n_processes=None):
+def _mesh(mesher, n_processes=None, cap_z_values=False):
     """Helper function to make a mesh"""
     xlim = mesher.limits[0]
     ylim = mesher.limits[1]
@@ -193,6 +194,10 @@ def _mesh(mesher, n_processes=None):
             mesher.func, np.array_split(xypairs, pool._processes)
         )
         z = np.concatenate(results)
+
+    # Cap z-values to avoid excessively large values, clip them to a max of 100
+    if (cap_z_values):
+        z = np.clip(z, 0, 100)
 
     # Close Pool of Processes
     if n_processes is not None:
