@@ -44,11 +44,103 @@ Therefore, for more informations regarding the **Virtual Environment** used in A
 
 ## Particle Swarm Optimization
 
-Particle Swarm Optimization (PSO) is an optimization technique inspired by the social behavior of birds and fish. It involves particles (potential solutions) moving through a search space influenced by both their own best positions and the group's best solution. Key elements include particle velocity, inertia, and social and cognitive acceleration factors, which help balance exploration and exploitation of the search space. PSO requires few hyperparameters, making it versatile and suitable for various tasks. Adaptive PSO variations adjust parameters dynamically to improve optimization performance.
+``Particle Swarm Optimization (PSO)`` is an `**optimization technique** inspired by the social behavior of birds and fish. It involves **particles (potential solutions)** moving through a search space influenced by both their **own best positions** and the **group's best solution**. 
+
+``Key elements`` include **particle velocity**, **inertia**, and **social and cognitive acceleration factors**, which help **balance exploration and exploitation** of the search space. 
+
+PSO requires **few hyperparameters** which makes it **versatile** and **suitable** for various tasks. ``Adaptive PSO variations`` **adjust parameters dynamically** to **improve optimization performance**.
+
+## Objective Functions
+
+Given the characteristics of the algorithm, I have chosen a **set of objective functions** to **test its performance**. 
+
+``Objective Functions`` assess each **particle's position** and provide a **fitness value**, allowing the algorithm to **iteratively refine solutions** and approach the **global optimum**.
+
+These functions are designed to **represent a variety of optimization challenges**, providing a comprehensive evaluation of **how well the algorithm adapts to different types of problem spaces**.
+
+<table width="100%">
+  <tr>
+    <th colspan="3" height="100%">
+        <div align="center">
+            Objective Functions
+        </div>
+    </th>
+  </tr>
+  
+  <tr>
+    <td width="25%">
+        <div align="center">
+        <b>Name</b>
+        </div>
+    </td>
+    <td width="25%">
+        <div align="center">
+        <b>Formula</b>
+        </div>
+    </td>
+    <td width="25%">
+        <div align="center">
+        <b>Graph</b>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="5%">
+        <div align="center">
+        <b>Sphere</b>
+        </div>
+    </td>
+    <td width="40%">
+        <div align="center">
+            f(x) = &sum;<sup>d</sup><sub>i=1</sub> x<sub>i</sub><sup>2</sup>
+        </div>
+    </td>
+    <td width="55%">
+        <p align="center"><img src="./Particle Swarm Optimization/Assets/SphereFunction.png" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="5%">
+        <div align="center">
+        <b>Rastrigin</b>
+        </div>
+    </td>
+    <td width="40%">
+        <div align="center">
+            f(x) = 10d + &sum;<sup>d</sup><sub>i=1</sub> [x<sub>i</sub><sup>2</sup> - 10 cos(2&pi;x<sub>i</sub>)]
+        </div>
+    </td>
+    <td width="55%">
+        <p align="center"><img src="./Particle Swarm Optimization/Assets/RastriginFunction.png" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="5%">
+        <div align="center">
+        <b>Rosenbrock</b>
+        </div>
+    </td>
+    <td width="40%">
+        <div align="center">
+            f(x) = &sum;<sup>d-1</sup><sub>i=1</sub> [100(x<sub>i+1</sub> - x<sub>i</sub><sup>2</sup>)<sup>2</sup> + (x<sub>i</sub> - 1)<sup>2</sup>]
+        </div>
+    </td>
+    <td width="55%">
+        <p align="center"><img src="./Particle Swarm Optimization/Assets/RosenbrockFunction.png" height="auto"/>
+        </p>
+    </td>
+  </tr>
+
+</table>
 
 ## Project Results
 
-Here are a few results when using the pyswarms package to minimize some objective functions which evaluates each particle's position.
+Here are a few results obtained using the ``pyswarms`` package to **minimize** the previously selected **objective functions**.
 
 <table width="100%">
   <tr>
@@ -124,8 +216,9 @@ Here are a few results when using the pyswarms package to minimize some objectiv
         </p>
     </td>
   </tr>
-
 </table>
+
+These results demonstrate how effectively the **algorithm minimizes these functions** which highlights its **versatility** and **performance** across diverse problem landscapes.
 
 ### Sources
 
