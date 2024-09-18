@@ -34,7 +34,9 @@
 
 ## Project Overview
 
-> ADD PROJECT OVERVIEW
+The objective of this project is to **develop the Particle Swarm Optimization (PSO) algorithm from scratch** in Python. It aims to **implement the core principles** of PSO, including the **initialization of particles**, **velocity updates**, and **position adjustments**, while allowing particles to **converge towards optimal solutions** based on the **balance between exploration and exploitation**.
+
+In addition to developing the PSO algorithm from scratch, I also used the ``pyswarms`` package to **test the algorithm on a few selected objective functions** which allowed to assess the **algorithm's performance**.
 
 ## Project Development (Dependencies & Execution)
 
@@ -44,7 +46,7 @@ Therefore, for more informations regarding the **Virtual Environment** used in A
 
 ## Particle Swarm Optimization
 
-``Particle Swarm Optimization (PSO)`` is an `**optimization technique** inspired by the social behavior of birds and fish. It involves **particles (potential solutions)** moving through a search space influenced by both their **own best positions** and the **group's best solution**. 
+``Particle Swarm Optimization (PSO)`` is an **optimization technique** inspired by the social behavior of birds and fish. It involves **particles (potential solutions)** moving through a search space influenced by both their **own best positions** and the **group's best solution**. 
 
 ``Key elements`` include **particle velocity**, **inertia**, and **social and cognitive acceleration factors**, which help **balance exploration and exploitation** of the search space. 
 
@@ -219,11 +221,6 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
 </table>
 
 These results demonstrate how effectively the **algorithm minimizes these functions** which highlights its **versatility** and **performance** across diverse problem landscapes.
-
-### Sources
-
-- https://towardsdatascience.com/particle-swarm-optimization-visually-explained-46289eeb2e14
-- Archive.today and use https://towardsdatascience.com/particle-swarm-optimization-b869231c57fe
 
 <div align="right">
 <sub>
