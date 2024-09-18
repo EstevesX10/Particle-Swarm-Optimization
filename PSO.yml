@@ -6,6 +6,7 @@ dependencies:
   - pip==23.3.1
   - setuptools==65.5.0
   - python==3.10
+  - ffmpeg==7.0.2
   - pip:
     - numpy==1.23.1
     - pandas==2.2.2
