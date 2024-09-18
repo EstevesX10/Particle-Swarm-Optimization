@@ -220,7 +220,7 @@ Here are a few results obtained using the ``pyswarms`` package to **minimize** t
   </tr>
 </table>
 
-These results demonstrate how effectively the **algorithm minimizes these functions** which highlights its **versatility** and **performance** across diverse problem landscapes.
+These results demonstrate how effectively the **algorithm minimizes these functions**, highlighting its **versatility** and **performance** across diverse problem landscapes.
 
 <div align="right">
 <sub>
