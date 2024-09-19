@@ -54,7 +54,7 @@ PSO requires **few hyperparameters** which makes it **versatile** and **suitable
 
 ## Objective Functions
 
-Given the characteristics of the algorithm, I have chosen a **set of objective functions** to **test its performance**. 
+Given the characteristics of the algorithm, I have chosen a **set of objective functions** to **test its performance** on. 
 
 ``Objective Functions`` assess each **particle's position** and provide a **fitness value**, allowing the algorithm to **iteratively refine solutions** and approach the **global optimum**.
 
@@ -64,7 +64,7 @@ These functions are designed to **represent a variety of optimization challenges
   <tr>
     <th colspan="3" height="100%">
         <div align="center">
-            Objective Functions
+            Objective Functions Selected
         </div>
     </th>
   </tr>
@@ -142,7 +142,7 @@ These functions are designed to **represent a variety of optimization challenges
 
 ## Project Results
 
-Here are a few results obtained using the ``pyswarms`` package to **minimize** the previously selected **objective functions**.
+Here are the results obtained by using the ``pyswarms`` package to **minimize** the previously selected **objective functions**.
 
 <table width="100%">
   <tr>
