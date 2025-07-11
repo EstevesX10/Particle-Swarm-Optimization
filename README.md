@@ -3,7 +3,7 @@
 </div>
 
 <p align="center" width="100%">
-    <img src="./Particle Swarm Optimization/Assets/PSO.gif" width="55%" height="55%" />
+    <img src="./Particle Swarm Optimization/Assets/PSO.gif" width="55%" />
 </p>
 
 <div align="center">
